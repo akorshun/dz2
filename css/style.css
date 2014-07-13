@@ -1,0 +1,173 @@
+/* line 9, C:/projects/dz2/sass/style.sass */
+h4, h2, p {
+  margin: 0;
+}
+
+/* line 11, C:/projects/dz2/sass/style.sass */
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+/* line 13, C:/projects/dz2/sass/style.sass */
+button {
+  position: absolute;
+  left: 20px;
+  top: 20;
+}
+
+/* line 17, C:/projects/dz2/sass/style.sass */
+.main-block {
+  width: 240px;
+  height: 400px;
+  text-align: center;
+  background: #ea522f;
+  margin: 0 auto;
+}
+/* line 23, C:/projects/dz2/sass/style.sass */
+.main-block h2 {
+  color: white;
+  font-weight: normal;
+  padding: 6px 0 7px 0;
+}
+/* line 27, C:/projects/dz2/sass/style.sass */
+.main-block .inner-block {
+  width: 236px;
+  background: white;
+  margin: 0 auto;
+}
+/* line 31, C:/projects/dz2/sass/style.sass */
+.main-block .inner-block img {
+  -webkit-transform: scale(0.9, 0.9);
+  -moz-transform: scale(0.9, 0.9);
+  -ms-transform: scale(0.9, 0.9);
+  -o-transform: scale(0.9, 0.9);
+  transform: scale(0.9, 0.9);
+  margin-top: 12px;
+}
+/* line 34, C:/projects/dz2/sass/style.sass */
+.main-block .inner-block img.second {
+  margin-top: 21px;
+  margin-bottom: 6px;
+}
+/* line 37, C:/projects/dz2/sass/style.sass */
+.main-block .inner-block h4 {
+  color: #ea522f;
+  font-size: 14px;
+}
+/* line 40, C:/projects/dz2/sass/style.sass */
+.main-block .inner-block p {
+  color: #686666;
+  font-size: 14px;
+  font-style: italic;
+}
+/* line 44, C:/projects/dz2/sass/style.sass */
+.main-block .triangle {
+  width: 0;
+  height: 0;
+  border-left: 118px solid transparent;
+  border-top: 29.5px solid white;
+  border-right: 118px solid transparent;
+  border-bottom: 29.5px solid transparent;
+  margin: 0 auto;
+}
+/* line 55, C:/projects/dz2/sass/style.sass */
+.main-block a {
+  color: white;
+  font-size: 13px;
+  position: relative;
+  top: -27px;
+}
+/* line 60, C:/projects/dz2/sass/style.sass */
+.main-block a:hover {
+  color: #f8c6bb;
+}
+
+/* line 64, C:/projects/dz2/sass/style.sass */
+.mod-block {
+  width: 960px;
+  height: 200px;
+  position: relative;
+}
+/* line 68, C:/projects/dz2/sass/style.sass */
+.mod-block h2 {
+  position: absolute;
+  left: 37px;
+  top: 66px;
+}
+/* line 72, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block {
+  width: 706px;
+  height: 194px;
+  position: absolute;
+  left: 186px;
+  top: 3px;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+}
+/* line 81, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block img {
+  position: absolute;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  top: 61px;
+  left: 32px;
+  margin: 0;
+}
+/* line 87, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block img.second {
+  margin: 0;
+  left: 359px;
+}
+/* line 90, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block h4 {
+  position: absolute;
+  font-size: 18px;
+  top: 60px;
+  left: 162px;
+}
+/* line 95, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block h4.second {
+  font-size: 24px;
+  top: 55px;
+  left: 496px;
+}
+/* line 99, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block p {
+  position: absolute;
+  font-size: 18px;
+  top: 85px;
+  left: 162px;
+}
+/* line 104, C:/projects/dz2/sass/style.sass */
+.mod-block .inner-block p.second {
+  left: 496px;
+}
+/* line 106, C:/projects/dz2/sass/style.sass */
+.mod-block .triangle {
+  position: absolute;
+  margin: 0;
+  border-top: 98px solid transparent;
+  border-left: 24.5px solid white;
+  border-bottom: 98px solid transparent;
+  border-right: 24.5px solid transparent;
+  left: 892px;
+  top: 3px;
+}
+/* line 118, C:/projects/dz2/sass/style.sass */
+.mod-block a {
+  position: absolute;
+  color: #8b0d00;
+  background: #f3a08d;
+  top: 159px;
+  left: 3px;
+  padding: 11px 10px 10px 5px;
+}
+/* line 125, C:/projects/dz2/sass/style.sass */
+.mod-block a:hover {
+  color: #8b0d00;
+  background: #f8c6bb;
+}

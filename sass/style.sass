@@ -1,0 +1,127 @@
+@import "compass"
+
+$main_color: #ea522f
+$second_color : white
+$caption_color: #686666
+$link_color: #8b0d00
+$link_bg: #f3a08d
+$font: "PT Sans", sans-serif
+h4,h2,p
+	margin: 0
+body
+	font-family: $font
+button
+	position: absolute
+	left: 20px
+	top: 20
+.main-block
+	width: 240px
+	height: 400px
+	text-align: center
+	background: $main-color
+	margin: 0 auto
+	h2
+		color: $second_color
+		font-weight: normal
+		padding: 6px 0 7px 0
+	.inner-block
+		width: 236px
+		background: $second_color
+		margin: 0 auto
+		img
+			+scale(0.9)
+			margin-top: 12px
+			&.second
+				margin-top: 21px
+				margin-bottom: 6px
+		h4
+			color: $main_color
+			font-size: 14px
+		p
+			color: $caption-color
+			font-size: 14px
+			font-style: italic
+	.triangle
+		$width: 236px
+		$height: $width / 2
+		$tan: 0.25
+		width: 0
+		height: 0
+		border-left: $height solid transparent
+		border-top: $height * $tan solid $second_color
+		border-right: $height solid transparent
+		border-bottom: $height * $tan solid transparent
+		margin: 0 auto
+	a
+		color: $second_color
+		font-size: 13px
+		position: relative
+		top: -27px
+		&:hover
+			color: lighten($link_bg, 10%)
+
+
+.mod-block
+	width: 960px
+	height: 200px
+	position: relative
+	h2
+		position: absolute
+		left: 37px
+		top: 66px
+	.inner-block
+		width: 706px
+		height: 194px
+		position: absolute
+		left: 186px
+		top: 3px
+		display: inline-block
+		text-align: left
+		position: absolute
+		img
+			position: absolute
+			+scale(1)
+			top: 61px
+			left: 32px
+			margin: 0
+			&.second
+				margin: 0
+				left: 359px
+		h4
+			position: absolute
+			font-size: 18px
+			top: 60px
+			left: 162px
+			&.second
+				font-size: 24px
+				top: 55px
+				left: 496px
+		p
+			position: absolute
+			font-size: 18px
+			top: 85px
+			left: 162px
+			&.second
+				left: 496px
+	.triangle
+		position: absolute
+		margin: 0
+		$width: 196px
+		$height: $width / 2
+		$tan: 0.25
+		border-top: $height solid transparent
+		border-left: $height * $tan solid $second_color
+		border-bottom: $height solid transparent
+		border-right: $height * $tan solid transparent
+		left: 892px
+		top: 3px
+	a
+		position: absolute
+		color: $link_color
+		background: $link_bg
+		top: 159px
+		left: 3px
+		padding: 11px 10px 10px 5px
+		&:hover
+			color: $link_color
+			background: lighten($link_bg, 10%)
